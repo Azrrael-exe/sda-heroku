@@ -1,0 +1,26 @@
+{
+  "name": "sda-heroku",
+  "version": "1.0.0",
+  "description": "Ejemplo de App para hacer deploy en heroku",
+  "main": "./bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azrrael-exe/sda-heroku.git"
+  },
+  "author": "vcamargo.e@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azrrael-exe/sda-heroku/issues"
+  },
+  "homepage": "https://github.com/Azrrael-exe/sda-heroku#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0"
+  }
+}
